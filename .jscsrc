@@ -1,0 +1,8 @@
+{
+	"preset": "google",
+	"maximumLineLength": 120,
+	"validateIndentation": "\t",
+	"validateLineBreaks": "LF",
+	"requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+	"esnext": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "generator-angular-gitignore",
+  "version": "0.1.0",
+  "description": "A yeoman generator for the .gitignore file in Angular.js projects",
+  "repository": "https://github.com/Knorcedger/generator-angular-gitignore",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "Angular.js",
+    "generator",
+    "gitignore"
+  ],
+  "author": "Knorcedger",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^0.22.2"
+  }
+}
