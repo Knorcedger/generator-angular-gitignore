@@ -4,7 +4,7 @@
   "description": "A yeoman generator for the .gitignore file in Angular.js projects",
   "repository": "https://github.com/Knorcedger/generator-angular-gitignore",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint app/"
   },
   "files": [
     "app"
@@ -20,5 +20,9 @@
   "license": "MIT",
   "dependencies": {
     "yeoman-generator": "^0.22.2"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-google": "^0.3.0"
   }
 }
