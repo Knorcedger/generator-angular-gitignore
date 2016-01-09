@@ -1,28 +1,31 @@
 {
   "name": "generator-angular-gitignore",
-  "version": "0.1.0",
   "description": "A yeoman generator for the .gitignore file in Angular.js projects",
-  "repository": "https://github.com/Knorcedger/generator-angular-gitignore",
-  "scripts": {
-    "test": "eslint app/"
-  },
-  "files": [
-    "app"
-  ],
-  "keywords": [
-    "yeoman-generator",
-    "yeoman",
-    "Angular.js",
-    "generator",
-    "gitignore"
-  ],
+  "version": "0.1.0",
   "author": "Knorcedger",
-  "license": "MIT",
+  "bugs": "https://github.com/Knorcedger/generator-angular-gitignore/issues",
   "dependencies": {
     "yeoman-generator": "^0.22.2"
   },
   "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-config-google": "^0.3.0"
+  },
+  "files": [
+    "app"
+  ],
+  "homepage": "https://github.com/Knorcedger/generator-angular-gitignore",
+  "keywords": [
+    "Angular.js",
+    "generator",
+    "gitignore",
+    "yeoman",
+    "yeoman-generator"
+  ],
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "https://github.com/Knorcedger/generator-angular-gitignore",
+  "scripts": {
+    "test": "eslint app/"
   }
 }
