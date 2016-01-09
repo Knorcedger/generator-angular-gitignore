@@ -1,7 +1,7 @@
 {
   "name": "generator-angular-gitignore",
   "description": "A yeoman generator for the .gitignore file in Angular.js projects",
-  "version": "0.0.0-semantic-release",
+  "version": "0.2.0",
   "author": "Knorcedger",
   "bugs": "https://github.com/Knorcedger/generator-angular-gitignore/issues",
   "dependencies": {
@@ -9,8 +9,7 @@
   },
   "devDependencies": {
     "eslint": "^1.10.3",
-    "eslint-config-google": "^0.3.0",
-    "semantic-release": "^4.3.5"
+    "eslint-config-google": "^0.3.0"
   },
   "files": [
     "app"
@@ -30,7 +29,6 @@
     "url": "https://github.com/Knorcedger/generator-angular-gitignore"
   },
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "eslint app/"
   }
 }
