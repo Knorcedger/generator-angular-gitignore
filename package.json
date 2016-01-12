@@ -1,7 +1,7 @@
 {
   "name": "generator-angular-gitignore",
   "description": "A yeoman generator for the .gitignore file in Angular.js projects",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Knorcedger",
   "bugs": "https://github.com/Knorcedger/generator-angular-gitignore/issues",
   "dependencies": {
