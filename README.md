@@ -1,6 +1,9 @@
 # generator-angular-gitignore [![Build Status](https://travis-ci.org/Knorcedger/generator-angular-gitignore.png?branch=master)](https://travis-ci.org/Knorcedger/generator-angular-gitignore)
 
-A yeoman generator for the .gitignore file in Angular.js projects
+A yeoman generator for the .gitignore file in Angular.js projects.
+
+Beyond the typical trash files that an OS creates, a folder structure is assumed where
+the public folder is used to host the build files like the minified JavaScript and CSS files, and is also ignored.
 
 ## Installation
 
@@ -10,6 +13,13 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 npm install generator-angular-gitignore --save
 ```
 
+or download it through [Yeoman](http://yeoman.io).
+
+Then, to generate the .gitignore file in your project use
+
+```sh
+yo angular-gitignore
+```
 
 ## Tests
 
