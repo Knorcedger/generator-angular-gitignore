@@ -10,7 +10,7 @@ the public folder is used to host the build files like the minified JavaScript a
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install generator-angular-gitignore --save
+npm install -g generator-angular-gitignore --save
 ```
 
 or download it through [Yeoman](http://yeoman.io).
